@@ -4,7 +4,7 @@ Top level function:
 - `factory([prototypes])`: returns a factory object for the given prototypes (if multiple prototypes are given, there are merged).
 
 Factory object:
-- `create([args])`: create an object and call pass the arguments given to the `init` function of its prototype (if there is one), returns the object.
+- `create([args])`: create an object and pass the given arguments to the `init` function of its prototype (if there is one), returns the object.
 - `isMakerOf(object)`: returns whether the factory is the maker of the given object.
 - `proto`: the factory's prototype.
 
