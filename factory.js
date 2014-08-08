@@ -6,10 +6,8 @@
 		if (len > 1) {
 			for (var i = 0; i < len; i++) {
 				var arg = arguments[i];
-				for (var key in arg) {
+				for (var key in arg)
 					proto[key] = arg[key];
-					console.log(key);
-				}
 			}
 		} else {
 			proto = arguments[0] || proto;
