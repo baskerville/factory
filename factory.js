@@ -23,7 +23,7 @@
 				return proto.isPrototypeOf(obj);
 			},
 			proto: proto
-		}
+		};
 	};
 
 	if (typeof module == "undefined")
